@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collin's Scratch Page</title>
+    <style>
+        body {
+            background-color: skyblue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: black;
+            font-weight: bold;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+        iframe {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Bold Title -->
+    <h1>Collin's Scratch Page</h1>
+
+    <!-- Image -->
+    <img src="assets/img/Legos.jpg" alt="Legos">
+
+    <!-- YouTube Video -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0BjlBnfHcHM?si=aXdDYz4hMOXEPTgw" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+
+    <!-- On-page Anchor Link -->
+    <p>
+        <a href="#favorite-foods">Jump to Favorite Foods</a>
+    </p>
+
+    <!-- Tableau Visualization -->
+    <div class='tableauPlaceholder' id='viz1733443951194' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='The American Political Universe' src='https://public.tableau.com/static/images/Po/PoliticalDW/TheAmericanPoliticalUniverse/1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='PoliticalDW&#47;TheAmericanPoliticalUniverse' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Po/PoliticalDW/TheAmericanPoliticalUniverse/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1733443951194');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '1000px';
+        vizElement.style.height = '1227px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+
+    <!-- Food Section with Anchor -->
+    <h2 id="favorite-foods">Favorite Foods</h2>
+    <ol>
+        <li>Fruits
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ul>
+        </li>
+        <li>Vegetables
+            <ul>
+                <li>Carrot</li>
+                <li>Broccoli</li>
+                <li>Spinach</li>
+            </ul>
+        </li>
+        <li>Snacks
+            <ul>
+                <li>Chips</li>
+                <li>Popcorn</li>
+                <li>Cookies</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!-- Back to Top Anchor -->
+    <p>
+        <a href="#top">Back to Top</a>
+    </p>
+
+    <!-- Footer Links -->
+    <div class="footer-link">
+        <a href="game.html">Go to Game Page</a>
+    </div>
+    <div class="footer-link">
+        <a href="Resume.html">Go to Resume</a>
+    </div>
+</body>
+</html>
